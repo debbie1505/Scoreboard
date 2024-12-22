@@ -1,0 +1,138 @@
+body {
+    margin: 0 auto;
+    background: #1B244A; 
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+   /* align-items: center;
+    //width:100vw;
+    */
+    justify-content: center;
+    max-width:37rem;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.title{
+    color: #EEEEEE;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em; 
+    margin-bottom:20px;
+}
+
+.container-items{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.score{
+    font-family: 'Cursed Timer ULiL', sans-serif;                                        
+    font-size:5.5rem;
+    font-weight:bold;
+    background:#080001;
+    color: #F94F6D;
+    text-align: center;
+    padding:1rem 4rem 1rem 3rem;
+    border-radius:5px;
+    margin: 0 auto;
+    max-width:37.5rem;
+    
+    
+}
+
+button{
+    padding:1rem;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                        
+    background:transparent;
+    border-color:#9AABD8;
+    border-radius:10px;
+    color: #9AABD8;
+    margin-right:5px;
+    margin-top:2rem;
+    
+}
+
+#new-game-btn{
+    text-align:center;
+    font-size: 30px;
+    background-color:#080001;
+    
+    
+}
+
+@keyframes highlight-border {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: yellow;
+  }
+}
+
+.winner-border {
+  animation: highlight-border 1s forwards;
+  border: 4px solid yellow;
+  border-radius: 10px; /* Optional for rounded corners */
+  padding: 8px;  /*To ensure content doesn't overlap the border */
+}
+
+#timer {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin:10px;
+
+}
+
+/* Modal styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #aaa;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
