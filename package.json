@@ -1,5 +1,5 @@
 {
-  "name": "scrim-s04k019",
+  "name": "ScoreBoard",
   "description": "https://scrimba.com/the-frontend-developer-career-path-c0j/~05h/s01figrv5h/head",
   "scripts": {
     "start": "vite",
